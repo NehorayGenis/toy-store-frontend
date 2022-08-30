@@ -1,0 +1,30 @@
+.home-page {
+    .hero {
+        background-image: url('@/assets/imgs/homeImg.jpeg');
+        height: 70vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: $cta;
+            color: #fff;
+            font-size: 20px;
+            padding: 15px 15px;
+            border-radius: 50vw;
+            font-weight: 700;
+            box-shadow: 1px 1px 27px -4px rgba(255,176,239,0.86);
+
+            &:hover {
+                background-color: #901a6d;
+            }
+        }
+    }
+
+
+}

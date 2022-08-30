@@ -1,0 +1,21 @@
+.toy-filter {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.el-input__inner {
+    box-shadow: none;
+    border-bottom: 1px solid $clr4;
+    border-radius: 0;
+    width: 200px;
+    &:hover {
+        box-shadow: none;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}

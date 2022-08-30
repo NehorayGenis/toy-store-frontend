@@ -1,0 +1,20 @@
+.btn-basic {
+  background: $cta;
+  font-weight: bold;
+  color: #ffffff;
+  height: 32px;
+  padding: 8px 15px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-basic:hover {
+  background: $clr2;
+}
+
+.btns-container {
+  display: flex;
+  align-items: center;
+}

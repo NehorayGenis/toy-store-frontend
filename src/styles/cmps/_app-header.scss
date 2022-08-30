@@ -1,0 +1,28 @@
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    box-shadow: $border-bottom-shadow;
+
+    .logo {
+        color: $cta;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        > * {
+            cursor: pointer;
+            padding: 15px;
+            &.router-link-exact-active {
+                color: $cta;
+                box-shadow: 0 1px 0px 0 $cta;
+            }
+        }
+    }
+}

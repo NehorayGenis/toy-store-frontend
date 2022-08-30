@@ -1,0 +1,14 @@
+.toy-app {
+    // background-color: #aaa;
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+        padding-inline-end: 15px;
+    }
+}

@@ -1,0 +1,15 @@
+.toy-list {
+    padding-inline-end: 15px;
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px,285px));
+        gap: 30px;
+        .btns-container {
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
